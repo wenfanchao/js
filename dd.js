@@ -1123,6 +1123,7 @@ var wmaps = function() {
         var line2 = 5;
         var qd1, zd1, qd2, zd2;
         //在这里我们设定换乘站为 换乘站应该使用变量定义
+        var x = 0 ;
         if (zd >= line1 && qd < line1) {
             qd1 = qd;
             //换乘站1
