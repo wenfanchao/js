@@ -1,8 +1,9 @@
+//xinde
 var wmaps = function() {
     var map, layer, vectorLayer, vectorLayerline, vectorLayerregion, selectFeature, wlayer, drawPointlj, markers, markerspath;
     //储存路径规划途径点
     var nodeArray = [];
-    //站点内容集合
+    //站点内容集合 
     /*var buspoint = [{
 
         "lng": 105.39961111447532,
