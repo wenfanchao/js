@@ -1,4 +1,3 @@
-//xinde
 var wmaps = function() {
     var map, layer, vectorLayer, vectorLayerline, vectorLayerregion, selectFeature, wlayer, drawPointlj, markers, markerspath;
     //储存路径规划途径点
@@ -1123,10 +1122,12 @@ var wmaps = function() {
         //第二条线路的长度
         var line2 = 5;
         var qd1, zd1, qd2, zd2;
-        //在这里我们设定换乘站为 第3站 与第12站
+        //在这里我们设定换乘站为 换乘站应该使用变量定义
         if (zd >= line1 && qd < line1) {
             qd1 = qd;
+            //换乘站1
             zd1 = 2;
+            //换乘站2
             qd2 = 5;
             zd2 = zd;
             node1 = oneBusPoint(qd1, zd1);
